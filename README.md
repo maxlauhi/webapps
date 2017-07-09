@@ -1,3 +1,5 @@
 this is Hash Login module!
-asdfa
-asdfsaf
+
+It stored by sqlite3
+
+and using python!
