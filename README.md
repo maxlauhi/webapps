@@ -1,1 +1,3 @@
-this is a sublime git test
+this is Hash Login module!
+asdfa
+asdfsaf
