@@ -1,5 +1,5 @@
 this is Hash Login module!
 
-It stored by sqlite3
+It stored by mysql. # update to mysql from sqlite3
 
-and using python!
+mysql-connector-python is used for this cause.
