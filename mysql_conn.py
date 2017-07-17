@@ -19,5 +19,6 @@ values = cursor.fetchall()
 cursor.close()
 conn.close()
 
+# 可以写成一个可以调用来连接mysql的模块。
 if __name__ == '__main__':
 	print values
