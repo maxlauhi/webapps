@@ -6,6 +6,9 @@ from sqlalchemy import Column, String, create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
+'''
+	初始化DBSession和具体每个表的class定义
+'''
 # 创建对象的基类：
 Base = declarative_base()
 
@@ -25,7 +28,9 @@ engine = create_engine('mysql+mysqlconnector://root:B@1utiful@localhost:3306/tes
 DBSession = sessionmaker(bind=engine)
 
 
-# ORM后向数据库添加记录就相当与添加一个User对象
+'''
+	ORM后向数据库添加记录就相当与添加一个User对象
+'''
 
 # 创建session对象：
 session = DBSession()
